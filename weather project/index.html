@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="searchbar mt-3 col-sm-10">
+                    <img src="images/search.svg">
+                    <input type="text" class="form-control rounded-5" placeholder="Search for location">
+                    <img src="images/cancel.svg" class="cancel">
+                </div>
+                <div class="setting col-sm-1 mt-3">
+                    <img src="images/setting.svg">
+                </div>
+            </div>
+            <div class="temp d-flex">
+                <div class="weather-icon">
+                    <div class="sun">
+                        <img src="images/icons8-sun.svg" class="sun">
+                    </div>
+
+                    <div class="cloud">
+                        <img src="images/cloud.svg">
+                    </div>
+
+                    <div class="rain">
+                        <img src="images/rain.svg">
+                    </div>
+                </div>
+
+                <div class="temp-figure d-flex">
+                    <div class="overall-temp">
+                        <h1>26&deg;</h1>
+                        <div class="review">
+                            <p>Clear skies, possible cyclone</p>
+                        </div>
+                    </div>
+                    <div class="temp-level d-flex">
+                        <div class="min-temp d-flex">
+                            <div>
+                                <img src="images/down-arrow.svg">
+                            </div>
+                            <div class="container">
+                                <p>Min</p>
+                                <h2><b>23&deg;</b></h2>
+                            </div>
+                        </div>
+                        <div class="max-temp d-flex">
+                            <div>
+                                <img src="images/up-arrow.svg">
+                            </div>
+                            <div class="container">
+                                <p>Max</p>
+                                <h2><b>30&deg;</b></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-2">
+                <p>Feels like 25&deg;</p>
+            </div>
+            <div class="chance-1 d-flex justify-content-between mt-5">
+                <div class="rain-chance d-flex">
+                    <img src="images/rainy.svg" alt="">
+                    <div>
+                        <h3>Chance of rain</h3>
+                        <p>0%</p>
+                    </div>
+                </div>
+                <div class="wind-chance d-flex">
+                    <img src="images/windy.svg" alt="">
+                    <div>
+                        <h3>Wind</h3>
+                        <p> 311km/hr</p>
+                    </div>
+                </div>
+                <div class="sunrise-chance d-flex">
+                    <img src="images/sun-rise.svg" alt="">
+                    <div>
+                        <h3>Sun rise</h3>
+                        <p>12:47PM</p>
+                    </div>
+                </div>
+                <div class="sunset-chance d-flex">
+                    <img src="images/sunset.svg" alt="">
+                    <div>
+                        <h3>Sunset</h3>
+                        <p>3:16AM</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="chance-2 d-flex justify-content-between mt-3">
+                <div class="Uv-index d-flex">
+                    <img src="images/UV index.svg" alt="">
+                    <div>
+                        <h3>UV index</h3>
+                        <p>1.2</p>
+                    </div>
+                </div>
+                <div class="humidity-chance d-flex">
+                    <img src="images/humidity.svg" alt="">
+                    <div>
+                        <h3>Humidity</h3>
+                        <p>98%</p>
+                    </div>
+                </div>
+                <div class="pressure d-flex">
+                    <img src="images/pressure.svg" alt="">
+                    <div>
+                        <h3>Pressure</h3>
+                        <p>952hPa</p>
+                    </div>
+                </div>
+
+                <div class="gust-chance d-flex">
+                    <img src="images/gust.svg" alt="">
+                    <div>
+                        <h3>Gust</h3>
+                        <p>434km/hr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hourly">
+                <h3>Hourly</h3>
+                <div class=" content d-flex justify-content-between">
+                    <div>
+                        <p>3AM</p>
+                        <img src="images/icons8-sun.svg" class="sun">
+                        <p>26&deg;</p>
+                    </div>
+                    <div>
+                        <p>4AM</p>
+                        <img src="images/cloudy.svg" class=" clouds">
+                        <p>26&deg;</p>
+                    </div>
+                    <div>
+                        <p>5AM</p>
+                        <img src="images/cloudy.svg" class=" clouds">
+                        <p>26&deg;</p>
+                    </div>
+                    <div>
+                        <p>6AM</p>
+                        <img src="images/cloudy.svg" class=" clouds">
+                        <p>26&deg;</p>
+                    </div>
+                    <div>
+                        <p>3AM</p>
+                        <img src="images/clouds.svg" class="clouds">
+                        <p>27&deg;</p>
+                    </div>
+                    <div>
+                        <p>7AM</p>
+                        <img src="images/cloudi.svg" class="clouds">
+                        <p>26&deg;</p>
+                    </div>
+                    <div class="drop">
+                        <p class="raining1 deg">9AM</p>
+                        <img src="images/cloudy.svg" class=" clouds raining1">
+                        <div class="d-flex small-rain">
+                            <b>
+                                <h1 class="raindrop1">I</h1>
+                            </b>
+                        </div>
+                        <p class="raining1 deg1">25&deg;</p>
+                    </div>
+                    <div class="drop">
+                        <p class="raining1 deg">10AM</p>
+                        <img src="images/cloudy.svg" class=" clouds raining1">
+                        <div class="d-flex small-rain">
+                            <b>
+                                <h1 class="raindrop1">I</h1>
+                            </b>
+                        </div>
+                        <p class="raining1 deg1">25&deg;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="weekly">
+                <div class="d-flex justify-content-between">
+                    <h3>This week</h3>
+                    <img src="images/hidden.svg" id="hidden">
+                </div>
+                <div class="details-table" id="table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Chance of rain</th>
+                                <th scope="col">Hunidity</th>
+                                <th scope="col">Pressure</th>
+                                <th scope="col">Min</th>
+                                <th scope="col">Max</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Sun</th>
+                                <td>0%</td>
+                                <td>98%</td>
+                                <td>952hPa</td>
+                                <td>23&deg;</td>
+                                <td>30&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td>100%</td>
+                                <td>44%</td>
+                                <td>1009hPa</td>
+                                <td>24&deg;</td>
+                                <td>34&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tue</th>
+                                <td>46%</td>
+                                <td>51%</td>
+                                <td>1013hPa</td>
+                                <td>25&deg;</td>
+                                <td>31&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wed</th>
+                                <td>15%</td>
+                                <td>31%</td>
+                                <td>1018hPa</td>
+                                <td>22&deg;</td>
+                                <td>31&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thur</th>
+                                <td>0%</td>
+                                <td>33%</td>
+                                <td>1890hPa</td>
+                                <td>26&deg;</td>
+                                <td>35&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri</th>
+                                <td>20%</td>
+                                <td>54%</td>
+                                <td>1016hPa</td>
+                                <td>22&deg;</td>
+                                <td>30&deg;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sat</th>
+                                <td>64%</td>
+                                <td>43%</td>
+                                <td>1011hPa</td>
+                                <td>23&deg;</td>
+                                <td>26&deg;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="visible-content">
+                    <div class="visible-content1 d-flex justify-content-between">
+                        <div class="mon d-flex">
+                            <div>
+                                <img src="images/cloudy.svg" class=" clouds raining">
+                                <div class="d-flex raindrops">
+                                    <h1 class="raindrop1">I</h1>
+                                    <h1 class="raindrop2">I</h1>
+                                    <h1 class="raindrop3">I</h1>
+                                    <h1 class="raindrop4">I</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <h2>MON</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+
+                                <p class="date">23th JULY</p>
+                                <div class="d-flex degrees">
+                                    <p class="low">76&deg;</p>
+                                    <p>93&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Tue d-flex">
+                            <div>
+                                <img src="images/cloudy.svg" class=" clouds raining">
+                                <div class="d-flex raindrops">
+                                    <h1 class="raindrop1">I</h1>
+                                    <h1 class="raindrop2">I</h1>
+                                    <h1 class="raindrop3">I</h1>
+                                    <h1 class="raindrop4">I</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex">
+                                    <h2>TUE</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+                                <p class="date">24th JULY</p>
+                                <div class="degrees d-flex">
+                                    <p class="low">70&deg;</p>
+                                    <p>83&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Wed d-flex">
+                            <div>
+                                <img src="images/cloudy.svg" class=" clouds">
+                            </div>
+                            <div>
+                                <div class="d-flex">
+                                    <h2>WED</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+                                <p class="date">25th JULY</p>
+                                <div class="degrees d-flex">
+                                    <p class="low">72&deg;</p>
+                                    <p>90&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="visible-content2 d-flex justify-content-between">
+                        <div class="Thur d-flex">
+                            <div>
+                                <img src="images/cloudi.svg" class="clouds">
+                            </div>
+                            <div>
+                                <div class="d-flex">
+                                    <h2>THUR</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+                                <p class="date">26th JULY</p>
+                                <div class="degrees d-flex">
+                                    <p class="low">66&deg;</p>
+                                    <p>84&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Fri d-flex">
+                            <div>
+                                <img src="images/cloudi.svg" class="clouds">
+                            </div>
+                            <div>
+                                <div class="d-flex">
+                                    <h2>FRI</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+                                <p class="date">27th JULY</p>
+                                <div class="degrees d-flex">
+                                    <p class="low">72&deg;</p>
+                                    <p>90&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Sat d-flex">
+                            <div>
+                                <img src="images/cloudy.svg" class=" clouds raining">
+                                <div class="d-flex raindrops">
+                                    <h1 class="raindrop1">I</h1>
+                                    <h1 class="raindrop2">I</h1>
+                                    <h1 class="raindrop3">I</h1>
+                                    <h1 class="raindrop4">I</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex">
+                                    <h2>SAT</h2>
+                                    <img src="images/details.svg" class="details">
+                                </div>
+                                <p class="date">28th JULY</p>
+                                <div class="degrees d-flex">
+                                    <p class="low">66&deg;</p>
+                                    <p>87&deg;</p>
+                                </div>
+                                <div class="level d-flex">
+                                    <p class="low">Min</p>
+                                    <p class="high">Max</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="real-details">
+                    <div class="wind-chance d-flex">
+                        <img src="images/windy.svg" alt="">
+                        <div class="d-flex">
+                            <h3>Wind</h3>
+                            <p> 311km/hr</p>
+                        </div>
+                    </div>
+                    <div class="rain-chance d-flex">
+                        <img src="images/rainy.svg" alt="">
+                        <div class="d-flex">
+                            <h3>Rain chance</h3>
+                            <p>0%</p>
+                        </div>
+                    </div>
+                    <div class="humidity-chance d-flex">
+                        <img src="images/humidity.svg" alt="">
+                        <div class="d-flex">
+                            <h3>Humidity</h3>
+                            <p>98%</p>
+                        </div>
+                    </div>
+                    <div class="pressure d-flex">
+                        <img src="images/pressure.svg" alt="">
+                        <div class="d-flex ">
+                            <h3>Pressure</h3>
+                            <p>952hPa</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="javascript/script.js"></script>
+    </body>
+
+</html>
